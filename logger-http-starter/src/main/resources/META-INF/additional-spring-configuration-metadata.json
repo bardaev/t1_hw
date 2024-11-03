@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "http.logger.enable",
+      "type": "java.lang.Boolean",
+      "description": "Enables http logger.",
+      "defaultValue": "false",
+      "sourceType": "java.lang.Boolean"
+    },
+    {
+      "name": "http.logger.log-level",
+      "type": "ch.qos.logback.classic.Level",
+      "description": "Log level.",
+      "defaultValue": "INFO",
+      "sourceType": "ch.qos.logback.classic.Level"
+    }
+  ]
+}

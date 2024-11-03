@@ -1,0 +1,5 @@
+t1:
+  http:
+    logger:
+      enabled: false
+      log-level: INFO
