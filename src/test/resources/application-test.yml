@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: test-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    driver-class-name: org.postgresql.Driver
+    username: testing
+    password: pgsql
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database: postgresql
+server:
+  port: 8081

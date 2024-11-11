@@ -1,0 +1,13 @@
+version: '1.0'
+
+services:
+  postgres:
+    image: postgres:13.1-alpine
+    container_name: t1_db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=testing
+      - POSTGRES_USER=testing
+      - POSTGRES_PASSWORD=pgsql
+    restart: always
